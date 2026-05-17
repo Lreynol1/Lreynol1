@@ -3,26 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JemRoy Accounting &amp; Tax Services</title>
-  <meta name="description" content="JemRoy provides professional accounting, bookkeeping, and tax filing services across multiple jurisdictions. Trusted by businesses and individuals worldwide." />
+  <title>TaxPertsConnectXIA — International Taxation &amp; Diaspora Empowerment</title>
+  <meta name="description" content="Connect with reputable accountants across the US, Canada and Jamaica. International Taxation — Local and Diaspora empowerment for you or your business." />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
+
+  <!-- ===== ANNOUNCEMENT BANNER ===== -->
+  <div class="banner" id="banner">
+    <span>🇯🇲 New: Tax Season 2025 Filing Guides for US, Canada &amp; Jamaica are now live!</span>
+    <a href="#resources" class="banner-link">View Guides →</a>
+    <button class="banner-close" id="bannerClose" aria-label="Close">✕</button>
+  </div>
 
   <!-- ===== NAVIGATION ===== -->
   <header class="navbar" id="navbar">
     <div class="container nav-inner">
       <a href="#" class="logo">
-        <span class="logo-jem">Jem</span><span class="logo-roy">Roy</span>
+        <span class="logo-tax">TaxPerts</span><span class="logo-connect">Connect</span><span class="logo-xia">XIA</span>
       </a>
       <nav class="nav-links" id="navLinks">
-        <a href="#services">Services</a>
-        <a href="#jurisdictions">Jurisdictions</a>
-        <a href="#why-us">Why Us</a>
-        <a href="#team">Our Team</a>
-        <a href="#contact" class="btn btn-outline-nav">Contact Us</a>
+        <a href="#find-accountant">Find an Accountant</a>
+        <a href="#community">Community</a>
+        <a href="#resources">Tax Resources</a>
+        <a href="#pricing">Membership</a>
+        <a href="#contact">Contact</a>
+        <a href="#pricing" class="btn btn-outline-nav">Join Free</a>
       </nav>
       <button class="hamburger" id="hamburger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
@@ -32,29 +40,93 @@
 
   <!-- ===== HERO ===== -->
   <section class="hero" id="home">
-    <div class="hero-bg"></div>
-    <div class="container hero-content">
-      <div class="hero-badge">Trusted Across 20+ Jurisdictions</div>
-      <h1>Financial Clarity.<br />Expert Guidance.</h1>
-      <p class="hero-sub">JemRoy delivers precision accounting, seamless tax filing, and strategic financial advisory — wherever your business operates.</p>
-      <div class="hero-cta">
-        <a href="#contact" class="btn btn-primary">Get a Free Consultation</a>
-        <a href="#services" class="btn btn-ghost">Explore Services</a>
+    <div class="hero-bg">
+      <div class="hero-pattern"></div>
+    </div>
+    <div class="container hero-layout">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="flag">🇯🇲</span>
+          <span class="flag">🇺🇸</span>
+          <span class="flag">🇨🇦</span>
+          <span>Serving the Jamaican Diaspora &amp; Beyond</span>
+        </div>
+        <h1>International Taxation.<br /><em>Local &amp; Diaspora<br />Empowerment.</em></h1>
+        <p class="hero-sub">Connect with verified accountants in the US, Canada, and Jamaica. Navigate cross-border taxes with confidence — for you or your business.</p>
+        <div class="hero-cta">
+          <a href="#find-accountant" class="btn btn-primary">Find an Accountant</a>
+          <a href="#community" class="btn btn-ghost">Join the Community</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">2,400+</span>
+            <span class="stat-label">Members</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">180+</span>
+            <span class="stat-label">Verified Accountants</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Countries</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">98%</span>
+            <span class="stat-label">Satisfaction</span>
+          </div>
+        </div>
       </div>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-num">1,200+</span>
-          <span class="stat-label">Clients Served</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">20+</span>
-          <span class="stat-label">Jurisdictions</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">15 yrs</span>
-          <span class="stat-label">Experience</span>
+      <div class="hero-visual">
+        <div class="hero-map-card">
+          <div class="map-header">
+            <span class="map-dot us"></span>
+            <span class="map-dot ca"></span>
+            <span class="map-dot jm"></span>
+            <span class="map-title">Live Network</span>
+          </div>
+          <div class="map-countries">
+            <div class="map-country">
+              <div class="mc-flag">🇺🇸</div>
+              <div class="mc-info">
+                <span class="mc-name">United States</span>
+                <span class="mc-count">94 accountants · 12 states</span>
+              </div>
+              <span class="mc-badge active">Active</span>
+            </div>
+            <div class="map-country">
+              <div class="mc-flag">🇨🇦</div>
+              <div class="mc-info">
+                <span class="mc-name">Canada</span>
+                <span class="mc-count">52 accountants · 6 provinces</span>
+              </div>
+              <span class="mc-badge active">Active</span>
+            </div>
+            <div class="map-country">
+              <div class="mc-flag">🇯🇲</div>
+              <div class="mc-info">
+                <span class="mc-name">Jamaica</span>
+                <span class="mc-count">34 accountants · all parishes</span>
+              </div>
+              <span class="mc-badge active">Active</span>
+            </div>
+          </div>
+          <div class="map-activity">
+            <div class="activity-item">
+              <div class="activity-dot"></div>
+              <span>New consultation booked · Miami, FL</span>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot"></div>
+              <span>Tax guide shared · Toronto, ON</span>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot"></div>
+              <span>Accountant verified · Kingston, JM</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -64,466 +136,653 @@
     </div>
   </section>
 
-  <!-- ===== SERVICES ===== -->
-  <section class="section" id="services">
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section section--tinted" id="how-it-works">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">What We Do</span>
-        <h2>Comprehensive Financial Services</h2>
-        <p>From day-to-day bookkeeping to complex multi-jurisdictional tax strategy, we have you covered.</p>
+        <span class="section-tag">How It Works</span>
+        <h2>From Confused to Confident in 3 Steps</h2>
+        <p>Whether you're navigating dual-country taxes or looking for a trusted local expert, we make it simple.</p>
       </div>
-      <div class="services-grid">
-
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="6" y="8" width="36" height="32" rx="3" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M6 18h36" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M16 28h4M28 28h4M16 34h4M28 34h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            </svg>
+      <div class="steps-grid">
+        <div class="step-card reveal">
+          <div class="step-number">01</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2.5"/><path d="M30 30l10 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
           </div>
-          <h3>Bookkeeping &amp; Accounting</h3>
-          <p>Accurate, real-time financial records that keep your business compliant and decision-ready. Monthly reconciliations, P&amp;L, and balance sheets included.</p>
-          <ul class="service-features">
-            <li>Monthly &amp; quarterly reporting</li>
-            <li>Accounts payable / receivable</li>
-            <li>Payroll processing</li>
-            <li>Cloud-based records management</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more →</a>
+          <h3>Search &amp; Filter</h3>
+          <p>Filter accountants by country, specialty (individual, corporate, international), language, and price range. Every profile is verified.</p>
         </div>
-
-        <div class="service-card service-card--featured">
-          <div class="featured-badge">Most Popular</div>
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M24 6L6 18v24h36V18L24 6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-              <path d="M18 42V28h12v14" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-              <path d="M24 14a3 3 0 100 6 3 3 0 000-6z" stroke="currentColor" stroke-width="2.5"/>
-            </svg>
+        <div class="step-connector reveal"></div>
+        <div class="step-card reveal">
+          <div class="step-number">02</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 38V14a2 2 0 012-2h28a2 2 0 012 2v24" stroke="currentColor" stroke-width="2.5"/><path d="M4 38h40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M18 26h12M18 32h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><rect x="18" y="12" width="12" height="8" rx="1" stroke="currentColor" stroke-width="2.5"/></svg>
           </div>
-          <h3>Tax Filing &amp; Planning</h3>
-          <p>Navigate complex tax codes across jurisdictions with expert preparation, e-filing, and proactive planning that minimises your liability.</p>
-          <ul class="service-features">
-            <li>Individual &amp; corporate returns</li>
-            <li>Multi-state &amp; cross-border filing</li>
-            <li>Tax-loss harvesting strategies</li>
-            <li>IRS / HMRC / CRA representation</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more →</a>
+          <h3>Book a Consultation</h3>
+          <p>Schedule a free intro call or a full paid consultation directly through the platform. Secure video, phone, or in-person options available.</p>
         </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="17" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M24 14v10l7 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+        <div class="step-connector reveal"></div>
+        <div class="step-card reveal">
+          <div class="step-number">03</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6l5.5 11.5L42 19l-9 8.5 2 12.5L24 34l-11 6 2-12.5-9-8.5 12.5-1.5z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
           </div>
-          <h3>Audit &amp; Assurance</h3>
-          <p>Independent audits and internal reviews that give stakeholders confidence in your financial statements and internal controls.</p>
-          <ul class="service-features">
-            <li>Statutory audits</li>
-            <li>Internal audit &amp; controls review</li>
-            <li>Fraud risk assessment</li>
-            <li>Compliance certifications</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more →</a>
+          <h3>Get Expert Advice</h3>
+          <p>Receive personalised international tax guidance. Join the community forum to share insights and stay ahead of regulatory changes.</p>
         </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 38l10-14 8 8 8-12 6 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <rect x="6" y="6" width="36" height="36" rx="3" stroke="currentColor" stroke-width="2.5"/>
-            </svg>
-          </div>
-          <h3>Financial Advisory</h3>
-          <p>Strategic guidance for growth, investment, and succession planning — tailored to your industry and long-term goals.</p>
-          <ul class="service-features">
-            <li>Cash flow forecasting</li>
-            <li>Business valuation</li>
-            <li>Mergers &amp; acquisition support</li>
-            <li>CFO-as-a-service</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more →</a>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="10" y="6" width="28" height="36" rx="3" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M16 16h16M16 22h16M16 28h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Payroll Services</h3>
-          <p>End-to-end payroll processing with full tax withholding compliance across multiple states and countries.</p>
-          <ul class="service-features">
-            <li>Multi-currency payroll</li>
-            <li>Benefits administration</li>
-            <li>Year-end W-2 / T4 / P60 filing</li>
-            <li>Direct deposit management</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more →</a>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M30 30l10 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <path d="M20 15v5l3 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <h3>Compliance &amp; Regulatory</h3>
-          <p>Stay ahead of changing regulations. We monitor legislative updates and proactively advise on compliance obligations in each jurisdiction you operate.</p>
-          <ul class="service-features">
-            <li>VAT / GST / Sales tax filings</li>
-            <li>FATCA &amp; CRS reporting</li>
-            <li>Anti-money laundering (AML)</li>
-            <li>GDPR financial data compliance</li>
-          </ul>
-          <a href="#contact" class="service-link">Learn more →</a>
-        </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ===== JURISDICTIONS ===== -->
-  <section class="section section--dark" id="jurisdictions">
+  <!-- ===== FIND AN ACCOUNTANT ===== -->
+  <section class="section" id="find-accountant">
     <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Accountant Directory</span>
+        <h2>Find Your Perfect Tax Expert</h2>
+        <p>All accountants are vetted, credentialed, and experienced with cross-border taxation for the Jamaican diaspora.</p>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar reveal">
+        <div class="search-fields">
+          <div class="search-field">
+            <label>Country</label>
+            <select id="filterCountry">
+              <option value="all">All Countries</option>
+              <option value="us">🇺🇸 United States</option>
+              <option value="ca">🇨🇦 Canada</option>
+              <option value="jm">🇯🇲 Jamaica</option>
+            </select>
+          </div>
+          <div class="search-field">
+            <label>Specialty</label>
+            <select id="filterSpec">
+              <option value="all">All Specialties</option>
+              <option value="individual">Individual / Personal Tax</option>
+              <option value="corporate">Corporate &amp; Business</option>
+              <option value="international">Cross-Border / International</option>
+              <option value="diaspora">Diaspora Planning</option>
+              <option value="realestate">Real Estate Investment</option>
+            </select>
+          </div>
+          <div class="search-field search-field--text">
+            <label>Name or Keyword</label>
+            <input type="text" id="filterSearch" placeholder="e.g. CPA, tax, Toronto…" />
+          </div>
+          <button class="btn btn-primary search-btn" id="searchBtn">Search</button>
+        </div>
+      </div>
+
+      <!-- Accountant Cards -->
+      <div class="accountants-grid" id="accountantsGrid">
+
+        <div class="accountant-card reveal" data-country="us" data-spec="international diaspora">
+          <div class="ac-header">
+            <div class="ac-avatar" style="background: linear-gradient(135deg, #009B3A, #005c23);">DA</div>
+            <div class="ac-badge featured">⭐ Featured</div>
+          </div>
+          <div class="ac-body">
+            <h4>Donna Anderson, CPA</h4>
+            <p class="ac-title">International Tax &amp; Diaspora Specialist</p>
+            <div class="ac-location"><span>📍</span> Atlanta, Georgia · USA</div>
+            <div class="ac-tags">
+              <span class="tag">Cross-Border Tax</span>
+              <span class="tag">Jamaica–US Filing</span>
+              <span class="tag">FBAR/FATCA</span>
+            </div>
+            <p class="ac-bio">15 years helping Jamaican diaspora members navigate US-Jamaica dual taxation, ITIN applications, and estate planning.</p>
+            <div class="ac-footer">
+              <div class="ac-rating">★★★★★ <span>(127 reviews)</span></div>
+              <a href="#pricing" class="btn btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accountant-card reveal" data-country="ca" data-spec="individual corporate">
+          <div class="ac-header">
+            <div class="ac-avatar" style="background: linear-gradient(135deg, #1a3a6e, #2d5aa0);">MG</div>
+          </div>
+          <div class="ac-body">
+            <h4>Michael Grant, CA</h4>
+            <p class="ac-title">Corporate &amp; Personal Tax Advisor</p>
+            <div class="ac-location"><span>📍</span> Toronto, Ontario · Canada</div>
+            <div class="ac-tags">
+              <span class="tag">CRA Filing</span>
+              <span class="tag">Corporate Tax</span>
+              <span class="tag">T4 &amp; T5 Slips</span>
+            </div>
+            <p class="ac-bio">Specialises in Canadian tax for Caribbean immigrants, including first-year residency returns and foreign income reporting.</p>
+            <div class="ac-footer">
+              <div class="ac-rating">★★★★★ <span>(89 reviews)</span></div>
+              <a href="#pricing" class="btn btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accountant-card reveal" data-country="jm" data-spec="corporate realestate">
+          <div class="ac-header">
+            <div class="ac-avatar" style="background: linear-gradient(135deg, #8B5E00, #c4860a);">PB</div>
+            <div class="ac-badge verified">✓ Verified</div>
+          </div>
+          <div class="ac-body">
+            <h4>Patricia Brown, ACCA</h4>
+            <p class="ac-title">Business Tax &amp; Real Estate Advisor</p>
+            <div class="ac-location"><span>📍</span> Kingston, St. Andrew · Jamaica</div>
+            <div class="ac-tags">
+              <span class="tag">TAJ Filings</span>
+              <span class="tag">Real Estate</span>
+              <span class="tag">Corporate GCT</span>
+            </div>
+            <p class="ac-bio">Expert in Jamaican tax law, property transfer tax, and advising diaspora investors returning to buy or build in Jamaica.</p>
+            <div class="ac-footer">
+              <div class="ac-rating">★★★★★ <span>(74 reviews)</span></div>
+              <a href="#pricing" class="btn btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accountant-card reveal" data-country="us" data-spec="individual realestate">
+          <div class="ac-header">
+            <div class="ac-avatar" style="background: linear-gradient(135deg, #5c1a3a, #9f2d6a);">KC</div>
+            <div class="ac-badge verified">✓ Verified</div>
+          </div>
+          <div class="ac-body">
+            <h4>Kevin Clarke, EA</h4>
+            <p class="ac-title">Enrolled Agent · Individual &amp; Real Estate</p>
+            <div class="ac-location"><span>📍</span> Bronx, New York · USA</div>
+            <div class="ac-tags">
+              <span class="tag">IRS Representation</span>
+              <span class="tag">ITIN Processing</span>
+              <span class="tag">Rental Income</span>
+            </div>
+            <p class="ac-bio">Helping Jamaicans in the NY tri-state area file accurate returns, resolve IRS notices, and claim every deduction they're entitled to.</p>
+            <div class="ac-footer">
+              <div class="ac-rating">★★★★☆ <span>(56 reviews)</span></div>
+              <a href="#pricing" class="btn btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accountant-card reveal" data-country="ca" data-spec="international diaspora">
+          <div class="ac-header">
+            <div class="ac-avatar" style="background: linear-gradient(135deg, #1e5631, #3aaa5b);">SW</div>
+            <div class="ac-badge featured">⭐ Featured</div>
+          </div>
+          <div class="ac-body">
+            <h4>Simone Williams, CPA, CA</h4>
+            <p class="ac-title">Cross-Border Tax &amp; Diaspora Planning</p>
+            <div class="ac-location"><span>📍</span> Brampton, Ontario · Canada</div>
+            <div class="ac-tags">
+              <span class="tag">Canada–Jamaica Treaties</span>
+              <span class="tag">Foreign Asset Reporting</span>
+              <span class="tag">Newcomers</span>
+            </div>
+            <p class="ac-bio">Passionate about empowering the Jamaican community in Canada with expert tax planning and financial literacy workshops.</p>
+            <div class="ac-footer">
+              <div class="ac-rating">★★★★★ <span>(102 reviews)</span></div>
+              <a href="#pricing" class="btn btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accountant-card reveal" data-country="jm" data-spec="individual diaspora">
+          <div class="ac-header">
+            <div class="ac-avatar" style="background: linear-gradient(135deg, #1a3050, #2a5080);">RM</div>
+          </div>
+          <div class="ac-body">
+            <h4>Robert McKenzie, FCCA</h4>
+            <p class="ac-title">Diaspora Return &amp; Personal Tax</p>
+            <div class="ac-location"><span>📍</span> Montego Bay, St. James · Jamaica</div>
+            <div class="ac-tags">
+              <span class="tag">Repatriation Planning</span>
+              <span class="tag">Double Taxation</span>
+              <span class="tag">Pension Income</span>
+            </div>
+            <p class="ac-bio">Specialises in advising diaspora members returning to Jamaica, ensuring proper tax transitions from US/UK/Canada to Jamaican residency.</p>
+            <div class="ac-footer">
+              <div class="ac-rating">★★★★★ <span>(61 reviews)</span></div>
+              <a href="#pricing" class="btn btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="dir-footer reveal">
+        <p>Showing 6 of <strong>180+ verified accountants</strong>. Unlock the full directory with a membership.</p>
+        <a href="#pricing" class="btn btn-primary">View All Accountants</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMMUNITY ===== -->
+  <section class="section section--dark community-section" id="community">
+    <div class="hero-bg"><div class="hero-pattern"></div></div>
+    <div class="container" style="position:relative;z-index:1">
       <div class="section-header section-header--light">
-        <span class="section-tag section-tag--light">Our Reach</span>
-        <h2>Serving Clients Across the Globe</h2>
-        <p>JemRoy has expertise in the tax codes and accounting standards of 20+ jurisdictions — so you can grow without borders.</p>
+        <span class="section-tag section-tag--light">Diaspora Community</span>
+        <h2>Where the Jamaican Diaspora Connects</h2>
+        <p>A safe, supportive space to discuss finances, share tax experiences, and grow together — whether you're in Kingston, Toronto, or Brooklyn.</p>
       </div>
 
-      <div class="jurisdiction-tabs">
-        <button class="jur-tab active" data-region="americas">Americas</button>
-        <button class="jur-tab" data-region="europe">Europe</button>
-        <button class="jur-tab" data-region="asia">Asia-Pacific</button>
-        <button class="jur-tab" data-region="africa">Africa &amp; Middle East</button>
+      <div class="community-grid">
+
+        <div class="community-card reveal">
+          <div class="cc-icon">💬</div>
+          <h3>Discussion Forums</h3>
+          <p>Ask questions, share wins, and learn from the community. Topics cover everything from first-time filing to offshore investment.</p>
+          <div class="cc-stats">
+            <span>1,240 posts this month</span>
+            <span>•</span>
+            <span>312 active members</span>
+          </div>
+          <div class="cc-threads">
+            <div class="thread"><span class="thread-flag">🇺🇸</span>"Do I need to file a Jamaica return if I'm a US citizen?"</div>
+            <div class="thread"><span class="thread-flag">🇨🇦</span>"First year in Canada — what documents do I need for CRA?"</div>
+            <div class="thread"><span class="thread-flag">🇯🇲</span>"Selling land in Jamaica while living abroad — TAJ obligations?"</div>
+          </div>
+        </div>
+
+        <div class="community-card reveal">
+          <div class="cc-icon">🎓</div>
+          <h3>Webinars &amp; Workshops</h3>
+          <p>Monthly live sessions hosted by verified accountants and financial experts — free for all members, premium deep-dives for Pro members.</p>
+          <div class="cc-events">
+            <div class="event-item">
+              <div class="event-date">
+                <span class="ed-day">22</span>
+                <span class="ed-mon">MAY</span>
+              </div>
+              <div class="event-info">
+                <strong>US–Jamaica Tax Treaty Explained</strong>
+                <span>Hosted by Donna Anderson, CPA</span>
+              </div>
+              <span class="event-badge free">Free</span>
+            </div>
+            <div class="event-item">
+              <div class="event-date">
+                <span class="ed-day">05</span>
+                <span class="ed-mon">JUN</span>
+              </div>
+              <div class="event-info">
+                <strong>Investing in Jamaica from Canada</strong>
+                <span>Hosted by Simone Williams, CPA</span>
+              </div>
+              <span class="event-badge pro">Pro</span>
+            </div>
+            <div class="event-item">
+              <div class="event-date">
+                <span class="ed-day">19</span>
+                <span class="ed-mon">JUN</span>
+              </div>
+              <div class="event-info">
+                <strong>Setting Up a Business in Jamaica</strong>
+                <span>Hosted by Patricia Brown, ACCA</span>
+              </div>
+              <span class="event-badge free">Free</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="community-card reveal">
+          <div class="cc-icon">🌍</div>
+          <h3>Diaspora Network Map</h3>
+          <p>Connect with other Jamaicans in your area. Our community spans 28 US states, all Canadian provinces, and every Jamaican parish.</p>
+          <div class="diaspora-map">
+            <div class="dm-region">
+              <span class="dmr-flag">🇺🇸</span>
+              <div class="dmr-bar-wrap">
+                <div class="dmr-label">United States</div>
+                <div class="dmr-bar"><div class="dmr-fill" style="width:72%"></div></div>
+              </div>
+              <span class="dmr-count">1,728</span>
+            </div>
+            <div class="dm-region">
+              <span class="dmr-flag">🇨🇦</span>
+              <div class="dmr-bar-wrap">
+                <div class="dmr-label">Canada</div>
+                <div class="dmr-bar"><div class="dmr-fill" style="width:45%"></div></div>
+              </div>
+              <span class="dmr-count">1,082</span>
+            </div>
+            <div class="dm-region">
+              <span class="dmr-flag">🇬🇧</span>
+              <div class="dmr-bar-wrap">
+                <div class="dmr-label">United Kingdom</div>
+                <div class="dmr-bar"><div class="dmr-fill" style="width:30%"></div></div>
+              </div>
+              <span class="dmr-count">721</span>
+            </div>
+            <div class="dm-region">
+              <span class="dmr-flag">🇯🇲</span>
+              <div class="dmr-bar-wrap">
+                <div class="dmr-label">Jamaica (local)</div>
+                <div class="dmr-bar"><div class="dmr-fill" style="width:22%"></div></div>
+              </div>
+              <span class="dmr-count">532</span>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="jurisdiction-panels">
-
-        <div class="jur-panel active" id="americas">
-          <div class="jur-cards">
-            <div class="jur-card">
-              <div class="jur-flag">🇺🇸</div>
-              <div class="jur-info">
-                <h4>United States</h4>
-                <p>Federal &amp; all 50 states — income tax, sales tax, FBAR, FATCA</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇨🇦</div>
-              <div class="jur-info">
-                <h4>Canada</h4>
-                <p>CRA filings, GST/HST, provincial returns, T4 &amp; T5 slips</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇲🇽</div>
-              <div class="jur-info">
-                <h4>Mexico</h4>
-                <p>SAT compliance, RFC registration, IVA &amp; ISR filings</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇧🇷</div>
-              <div class="jur-info">
-                <h4>Brazil</h4>
-                <p>Receita Federal, SPED fiscal, IRPJ, CSLL, PIS/COFINS</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇨🇴</div>
-              <div class="jur-info">
-                <h4>Colombia</h4>
-                <p>DIAN filings, IVA, retención en la fuente, NIIF compliance</p>
-              </div>
-            </div>
+      <div class="community-cta reveal">
+        <div class="cta-inner">
+          <h3>Ready to join the conversation?</h3>
+          <p>Free membership gives you access to forums and monthly webinars. Upgrade for full accountant directory access, priority booking, and more.</p>
+          <div class="cta-btns">
+            <a href="#pricing" class="btn btn-gold">Join Free Today</a>
+            <a href="#pricing" class="btn btn-ghost">See Premium Plans</a>
           </div>
         </div>
-
-        <div class="jur-panel" id="europe">
-          <div class="jur-cards">
-            <div class="jur-card">
-              <div class="jur-flag">🇬🇧</div>
-              <div class="jur-info">
-                <h4>United Kingdom</h4>
-                <p>HMRC self-assessment, VAT, corporation tax, Companies House</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇩🇪</div>
-              <div class="jur-info">
-                <h4>Germany</h4>
-                <p>Finanzamt filings, Umsatzsteuer, Körperschaftsteuer, HGB accounting</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇫🇷</div>
-              <div class="jur-info">
-                <h4>France</h4>
-                <p>DGFiP declarations, TVA, IS, liasse fiscale, PCG standards</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇳🇱</div>
-              <div class="jur-info">
-                <h4>Netherlands</h4>
-                <p>Belastingdienst filings, BTW, VPB, Dutch GAAP / IFRS</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇨🇭</div>
-              <div class="jur-info">
-                <h4>Switzerland</h4>
-                <p>Cantonal &amp; federal returns, MWST, withholding tax, OR compliance</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="jur-panel" id="asia">
-          <div class="jur-cards">
-            <div class="jur-card">
-              <div class="jur-flag">🇸🇬</div>
-              <div class="jur-info">
-                <h4>Singapore</h4>
-                <p>IRAS corporate tax, GST, XBRL filing, ACRA compliance</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇦🇺</div>
-              <div class="jur-info">
-                <h4>Australia</h4>
-                <p>ATO returns, BAS / IAS, GST, Division 7A, SMSF compliance</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇭🇰</div>
-              <div class="jur-info">
-                <h4>Hong Kong</h4>
-                <p>IRD profits &amp; salaries tax, BRC filings, HKFRS</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇮🇳</div>
-              <div class="jur-info">
-                <h4>India</h4>
-                <p>Income Tax, GST, TDS, MCA filing, IndAS / Ind GAAP</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇳🇿</div>
-              <div class="jur-info">
-                <h4>New Zealand</h4>
-                <p>IRD returns, GST, FBT, NZ IFRS accounting standards</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="jur-panel" id="africa">
-          <div class="jur-cards">
-            <div class="jur-card">
-              <div class="jur-flag">🇳🇬</div>
-              <div class="jur-info">
-                <h4>Nigeria</h4>
-                <p>FIRS returns, VAT, WHT, CITA, SMEEIS compliance</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇿🇦</div>
-              <div class="jur-info">
-                <h4>South Africa</h4>
-                <p>SARS income tax, VAT, PAYE, UIF, IFRS for SME</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇦🇪</div>
-              <div class="jur-info">
-                <h4>UAE</h4>
-                <p>Corporate tax (9%), VAT, free zone structures, FTA compliance</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇰🇪</div>
-              <div class="jur-info">
-                <h4>Kenya</h4>
-                <p>KRA iTax filings, VAT, PAYE, WHT, IFRS compliance</p>
-              </div>
-            </div>
-            <div class="jur-card">
-              <div class="jur-flag">🇬🇭</div>
-              <div class="jur-info">
-                <h4>Ghana</h4>
-                <p>GRA returns, VAT, PAYE, income tax, IFRS standards</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
 
-  <!-- ===== WHY US ===== -->
-  <section class="section" id="why-us">
+  <!-- ===== TAX RESOURCES ===== -->
+  <section class="section" id="resources">
     <div class="container">
-      <div class="why-inner">
-        <div class="why-content">
-          <span class="section-tag">Why JemRoy</span>
-          <h2>Your Finances Deserve<br />More Than a Spreadsheet</h2>
-          <p class="why-lead">We combine deep local expertise with a global perspective — giving you a team that understands both the letter and the spirit of the law in every jurisdiction you operate.</p>
-          <div class="why-features">
-            <div class="why-feature">
-              <div class="why-icon">✓</div>
-              <div>
-                <h4>Dedicated Account Manager</h4>
-                <p>One point of contact who knows your business inside out, no matter how many jurisdictions you operate in.</p>
-              </div>
-            </div>
-            <div class="why-feature">
-              <div class="why-icon">✓</div>
-              <div>
-                <h4>Technology-Driven Workflow</h4>
-                <p>We integrate with QuickBooks, Xero, Sage, and custom ERP systems for seamless, real-time data flow.</p>
-              </div>
-            </div>
-            <div class="why-feature">
-              <div class="why-icon">✓</div>
-              <div>
-                <h4>Deadline Guarantee</h4>
-                <p>We track every filing deadline across every jurisdiction — and we've never missed one in 15 years.</p>
-              </div>
-            </div>
-            <div class="why-feature">
-              <div class="why-icon">✓</div>
-              <div>
-                <h4>Transparent, Fixed-Fee Pricing</h4>
-                <p>No surprise invoices. Agree your scope upfront and get a clear monthly fee — no hourly billing anxiety.</p>
-              </div>
-            </div>
+      <div class="section-header">
+        <span class="section-tag">Tax Resources</span>
+        <h2>International Tax Knowledge Hub</h2>
+        <p>Expert-written guides, country-specific filing tips, and diaspora-focused financial advice — updated every tax season.</p>
+      </div>
+
+      <div class="resource-tabs">
+        <button class="res-tab active" data-res="all">All</button>
+        <button class="res-tab" data-res="us">🇺🇸 US Taxes</button>
+        <button class="res-tab" data-res="ca">🇨🇦 Canadian Taxes</button>
+        <button class="res-tab" data-res="jm">🇯🇲 Jamaica Taxes</button>
+        <button class="res-tab" data-res="intl">🌐 Cross-Border</button>
+      </div>
+
+      <div class="resources-grid" id="resourcesGrid">
+
+        <div class="resource-card reveal" data-res="intl us jm">
+          <div class="rc-country intl">CROSS-BORDER</div>
+          <h4>Understanding the US–Jamaica Tax Treaty: What Diaspora Members Must Know</h4>
+          <p>A plain-English breakdown of the bilateral treaty, credits available, and how to avoid double taxation on income earned in both countries.</p>
+          <div class="rc-meta">
+            <span class="rc-author">By Donna Anderson, CPA</span>
+            <span class="rc-read">8 min read</span>
+          </div>
+          <div class="rc-footer">
+            <span class="rc-tag">Treaty</span>
+            <span class="rc-tag">Double Taxation</span>
+            <a href="#pricing" class="rc-link">Read Article →</a>
           </div>
         </div>
-        <div class="why-visual">
-          <div class="why-card-stack">
-            <div class="wcard wcard--1">
-              <div class="wcard-label">Tax Savings — FY 2024</div>
-              <div class="wcard-value">$248,000</div>
-              <div class="wcard-sub">Identified for a mid-size e-commerce client</div>
+
+        <div class="resource-card reveal" data-res="ca">
+          <div class="rc-country ca">CANADA</div>
+          <h4>New to Canada: Your First CRA Tax Return as a Jamaican Immigrant</h4>
+          <p>Step-by-step guide for newcomers — residency determination, T-slip reporting, and claiming your full eligible deductions in year one.</p>
+          <div class="rc-meta">
+            <span class="rc-author">By Simone Williams, CPA</span>
+            <span class="rc-read">11 min read</span>
+          </div>
+          <div class="rc-footer">
+            <span class="rc-tag">Newcomers</span>
+            <span class="rc-tag">CRA</span>
+            <a href="#pricing" class="rc-link">Read Article →</a>
+          </div>
+        </div>
+
+        <div class="resource-card reveal" data-res="jm">
+          <div class="rc-country jm">JAMAICA</div>
+          <h4>Diaspora Property Investment: TAJ Tax Obligations for Non-Residents</h4>
+          <p>What you need to declare when buying, renting out, or selling Jamaican property while living abroad. Includes transfer tax and stamp duty tables.</p>
+          <div class="rc-meta">
+            <span class="rc-author">By Patricia Brown, ACCA</span>
+            <span class="rc-read">9 min read</span>
+          </div>
+          <div class="rc-footer">
+            <span class="rc-tag">Property</span>
+            <span class="rc-tag">TAJ</span>
+            <a href="#pricing" class="rc-link">Read Article →</a>
+          </div>
+        </div>
+
+        <div class="resource-card reveal resource-card--premium" data-res="intl ca jm">
+          <div class="rc-premium-badge">PRO</div>
+          <div class="rc-country intl">CROSS-BORDER</div>
+          <h4>Canada–Jamaica Tax Planning for Dual Residents: Advanced Strategies</h4>
+          <p>Deep-dive analysis of RRSP contributions, foreign tax credits, and treaty elections available to Canadians with Jamaican-source income.</p>
+          <div class="rc-meta">
+            <span class="rc-author">By Michael Grant, CA</span>
+            <span class="rc-read">15 min read</span>
+          </div>
+          <div class="rc-footer">
+            <span class="rc-tag">RRSP</span>
+            <span class="rc-tag">Tax Credits</span>
+            <a href="#pricing" class="rc-link">Unlock with Pro →</a>
+          </div>
+        </div>
+
+        <div class="resource-card reveal" data-res="us">
+          <div class="rc-country us">USA</div>
+          <h4>ITIN Application Guide for Jamaicans with US Income but No SSN</h4>
+          <p>Who needs an ITIN, how to apply through a Certifying Acceptance Agent, and common mistakes that cause rejections.</p>
+          <div class="rc-meta">
+            <span class="rc-author">By Kevin Clarke, EA</span>
+            <span class="rc-read">7 min read</span>
+          </div>
+          <div class="rc-footer">
+            <span class="rc-tag">ITIN</span>
+            <span class="rc-tag">IRS</span>
+            <a href="#pricing" class="rc-link">Read Article →</a>
+          </div>
+        </div>
+
+        <div class="resource-card reveal resource-card--premium" data-res="intl us ca jm">
+          <div class="rc-premium-badge">PRO</div>
+          <div class="rc-country intl">CROSS-BORDER</div>
+          <h4>Returning to Jamaica: Managing Tax Exit from the US or Canada</h4>
+          <p>How to properly terminate US or Canadian tax residency, handle departure returns, and plan your transition back to Jamaican tax status.</p>
+          <div class="rc-meta">
+            <span class="rc-author">By Robert McKenzie, FCCA</span>
+            <span class="rc-read">13 min read</span>
+          </div>
+          <div class="rc-footer">
+            <span class="rc-tag">Repatriation</span>
+            <span class="rc-tag">Departure Return</span>
+            <a href="#pricing" class="rc-link">Unlock with Pro →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="resources-footer reveal">
+        <p><strong>50+ guides</strong> available. Pro members get full access to all premium articles and downloadable tax checklists.</p>
+        <a href="#pricing" class="btn btn-primary">Access Full Library</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="section section--tinted" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Membership Plans</span>
+        <h2>Choose the Right Plan for You</h2>
+        <p>Transparent pricing with no hidden fees. Start free and upgrade as your needs grow.</p>
+      </div>
+
+      <div class="billing-toggle">
+        <span class="bt-label active" id="monthlyLabel">Monthly</span>
+        <button class="bt-switch" id="billingToggle" role="switch" aria-checked="false">
+          <span class="bt-knob"></span>
+        </button>
+        <span class="bt-label" id="annualLabel">Annual <span class="save-badge">Save 20%</span></span>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card reveal">
+          <div class="pc-header">
+            <div class="pc-tier">Free</div>
+            <div class="pc-price">
+              <span class="pc-amount" data-monthly="$0" data-annual="$0">$0</span>
+              <span class="pc-period">/ month</span>
             </div>
-            <div class="wcard wcard--2">
-              <div class="wcard-label">Filings Completed</div>
-              <div class="wcard-value">4,800+</div>
-              <div class="wcard-sub">Across all jurisdictions, zero late penalties</div>
+            <p class="pc-desc">Perfect for individuals exploring options and getting started with the community.</p>
+          </div>
+          <ul class="pc-features">
+            <li class="included">Community forum access</li>
+            <li class="included">Monthly webinar invites</li>
+            <li class="included">3 free article reads / month</li>
+            <li class="included">Basic accountant search (5 results)</li>
+            <li class="included">Newsletter &amp; tax deadline alerts</li>
+            <li class="not-included">Full accountant directory</li>
+            <li class="not-included">Direct messaging with accountants</li>
+            <li class="not-included">Premium article library</li>
+            <li class="not-included">Priority consultation booking</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Started Free</a>
+        </div>
+
+        <div class="pricing-card pricing-card--featured reveal">
+          <div class="pc-popular">Most Popular</div>
+          <div class="pc-header">
+            <div class="pc-tier">Pro</div>
+            <div class="pc-price">
+              <span class="pc-amount" data-monthly="$19" data-annual="$15">$19</span>
+              <span class="pc-period">/ month</span>
             </div>
-            <div class="wcard wcard--3">
-              <div class="wcard-label">Client Retention Rate</div>
-              <div class="wcard-value">97%</div>
-              <div class="wcard-sub">Year-over-year client satisfaction</div>
+            <p class="pc-desc">For diaspora individuals actively managing cross-border finances and seeking expert guidance.</p>
+          </div>
+          <ul class="pc-features">
+            <li class="included">Everything in Free</li>
+            <li class="included">Full accountant directory (180+)</li>
+            <li class="included">Direct messaging with accountants</li>
+            <li class="included">Full premium article library</li>
+            <li class="included">Priority consultation booking</li>
+            <li class="included">Downloadable tax checklists</li>
+            <li class="included">Pro webinar deep-dives</li>
+            <li class="included">Multi-country tax calendar</li>
+            <li class="not-included">Business entity support</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold">Start Pro Trial</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <div class="pc-header">
+            <div class="pc-tier">Business</div>
+            <div class="pc-price">
+              <span class="pc-amount" data-monthly="$49" data-annual="$39">$49</span>
+              <span class="pc-period">/ month</span>
             </div>
+            <p class="pc-desc">For businesses operating across US, Canada, and Jamaica requiring ongoing tax strategy.</p>
+          </div>
+          <ul class="pc-features">
+            <li class="included">Everything in Pro</li>
+            <li class="included">Business entity filings support</li>
+            <li class="included">Dedicated account manager</li>
+            <li class="included">Quarterly strategy sessions</li>
+            <li class="included">Multi-user team access (up to 5)</li>
+            <li class="included">Payroll &amp; GCT/VAT guidance</li>
+            <li class="included">Whitelabel reporting templates</li>
+            <li class="included">24/7 priority support</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Contact for Business</a>
+        </div>
+
+      </div>
+
+      <!-- Accountant Listing Pricing -->
+      <div class="accountant-pricing reveal">
+        <div class="ap-header">
+          <h3>Are you an Accountant or Tax Professional?</h3>
+          <p>Reach thousands of diaspora clients actively searching for tax expertise in your country.</p>
+        </div>
+        <div class="ap-tiers">
+          <div class="ap-tier">
+            <div class="apt-name">Standard Listing</div>
+            <div class="apt-price">$0<span>/mo</span></div>
+            <p>Basic profile, searchable directory</p>
+            <a href="#contact" class="btn btn-sm btn-outline">List for Free</a>
+          </div>
+          <div class="ap-tier ap-tier--featured">
+            <div class="apt-badge">Best Value</div>
+            <div class="apt-name">Featured Listing</div>
+            <div class="apt-price">$39<span>/mo</span></div>
+            <p>Top placement, verified badge, direct booking</p>
+            <a href="#contact" class="btn btn-sm btn-gold">Get Featured</a>
+          </div>
+          <div class="ap-tier">
+            <div class="apt-name">Premium Partner</div>
+            <div class="apt-price">$99<span>/mo</span></div>
+            <p>Homepage spotlight, webinar hosting, co-branded resources</p>
+            <a href="#contact" class="btn btn-sm btn-outline">Become a Partner</a>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
   <!-- ===== TESTIMONIALS ===== -->
-  <section class="section section--tinted" id="testimonials">
+  <section class="section" id="testimonials">
     <div class="container">
       <div class="section-header">
-        <span class="section-tag">Client Stories</span>
-        <h2>Trusted by Businesses Like Yours</h2>
+        <span class="section-tag">Community Stories</span>
+        <h2>Real People. Real Results.</h2>
+        <p>From first-time filers to seasoned investors — hear how TaxPertsConnectXIA made a difference.</p>
       </div>
       <div class="testimonials-grid">
-        <div class="testimonial">
-          <div class="testimonial-quote">"JemRoy saved us from a potential $90k IRS penalty during an audit. Their cross-border expertise is unmatched — they handle our US, UK, and Canada filings seamlessly."</div>
+
+        <div class="testimonial reveal">
+          <div class="t-stars">★★★★★</div>
+          <div class="testimonial-quote">"I had no idea I was entitled to foreign tax credits in both countries. Through the community forums and a consultation with Donna, I got $4,200 back from the IRS. Life-changing platform."</div>
           <div class="testimonial-author">
-            <div class="author-avatar">MK</div>
+            <div class="author-avatar" style="background: linear-gradient(135deg, #009B3A, #005c23);">TW</div>
             <div>
-              <strong>Marcus K.</strong>
-              <span>CEO, NovaTech Solutions — New York &amp; London</span>
+              <strong>Tracey Williams</strong>
+              <span>🇺🇸 Miami, Florida — Jamaican-American</span>
             </div>
           </div>
         </div>
-        <div class="testimonial">
-          <div class="testimonial-quote">"Switching to JemRoy was the best financial decision we made. They identified three deductions we'd missed for years and set up a proper SMSF structure in Australia."</div>
+
+        <div class="testimonial reveal">
+          <div class="t-stars">★★★★★</div>
+          <div class="testimonial-quote">"I moved to Toronto three years ago and was terrified of Canadian taxes. Simone walked me through everything. The webinars are gold — I actually look forward to tax season now."</div>
           <div class="testimonial-author">
-            <div class="author-avatar">SL</div>
+            <div class="author-avatar" style="background: linear-gradient(135deg, #1a3a6e, #2d5aa0);">RB</div>
             <div>
-              <strong>Sandra L.</strong>
-              <span>Founder, Meridian Capital — Sydney</span>
+              <strong>Ricardo Brown</strong>
+              <span>🇨🇦 Brampton, Ontario — Jamaican Canadian</span>
             </div>
           </div>
         </div>
-        <div class="testimonial">
-          <div class="testimonial-quote">"Our Nigeria-UAE dual-entity structure was a compliance nightmare. JemRoy's team knew exactly what to do. We're now fully compliant and our effective tax rate dropped by 18%."</div>
+
+        <div class="testimonial reveal">
+          <div class="t-stars">★★★★★</div>
+          <div class="testimonial-quote">"I bought land in Portland from New York and had zero idea about Jamaican property transfer taxes. Patricia handled everything remotely. The whole process was seamless and professional."</div>
           <div class="testimonial-author">
-            <div class="author-avatar">AO</div>
+            <div class="author-avatar" style="background: linear-gradient(135deg, #8B5E00, #c4860a);">DN</div>
             <div>
-              <strong>Adaeze O.</strong>
-              <span>Director, Okafor Group — Lagos &amp; Dubai</span>
+              <strong>Delroy Naughton</strong>
+              <span>🇺🇸🇯🇲 New York — Diaspora Investor</span>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ===== TEAM ===== -->
-  <section class="section" id="team">
+  <!-- ===== VISION STRIPE ===== -->
+  <section class="vision-stripe">
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Our People</span>
-        <h2>Meet the Experts Behind JemRoy</h2>
-        <p>Certified professionals with deep local knowledge, spanning multiple continents and disciplines.</p>
-      </div>
-      <div class="team-grid">
-        <div class="team-card">
-          <div class="team-avatar" style="background: linear-gradient(135deg, #1a3a5c, #2d6a9f);">JR</div>
-          <h4>James Roy</h4>
-          <p class="team-title">Managing Partner, CPA</p>
-          <p class="team-bio">15+ years specialising in US-Canada cross-border tax. Former Big Four senior manager.</p>
-          <div class="team-certs">
-            <span class="cert">CPA (AICPA)</span>
-            <span class="cert">CPA (CPA Canada)</span>
-          </div>
+      <div class="vs-inner reveal">
+        <div class="vs-flag-stack">
+          <span>🇯🇲</span><span>🇺🇸</span><span>🇨🇦</span>
         </div>
-        <div class="team-card">
-          <div class="team-avatar" style="background: linear-gradient(135deg, #1e5631, #3aaa5b);">AN</div>
-          <h4>Amara Nwosu</h4>
-          <p class="team-title">Head of Africa &amp; Middle East</p>
-          <p class="team-bio">Expert in Nigerian, Kenyan, and UAE corporate tax structures with 12 years of regional experience.</p>
-          <div class="team-certs">
-            <span class="cert">ACCA</span>
-            <span class="cert">ICAN</span>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-avatar" style="background: linear-gradient(135deg, #5c1a3a, #9f2d6a);">EP</div>
-          <h4>Elena Petrov</h4>
-          <p class="team-title">Head of European Tax</p>
-          <p class="team-bio">Multilingual tax attorney covering UK, Germany, France, and the Netherlands. CIOT Fellow.</p>
-          <div class="team-certs">
-            <span class="cert">CTA (CIOT)</span>
-            <span class="cert">ACA</span>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-avatar" style="background: linear-gradient(135deg, #5c4a1a, #9f832d);">DT</div>
-          <h4>David Tan</h4>
-          <p class="team-title">Head of Asia-Pacific</p>
-          <p class="team-bio">Singapore-based CPA with expertise across APAC jurisdictions, specialising in transfer pricing.</p>
-          <div class="team-certs">
-            <span class="cert">CA (ICAA)</span>
-            <span class="cert">ISCA</span>
-          </div>
+        <div class="vs-text">
+          <p class="vs-label">Our Vision</p>
+          <h2>"International Taxation — Local and Diaspora Empowerment for You or Your Business."</h2>
         </div>
       </div>
     </div>
@@ -535,30 +794,42 @@
       <div class="contact-inner">
         <div class="contact-content">
           <span class="section-tag section-tag--light">Get in Touch</span>
-          <h2>Let's Talk About Your Finances</h2>
-          <p>Book a free 30-minute consultation with one of our advisors. No obligation, no sales pitch — just expert advice tailored to your situation.</p>
+          <h2>Let's Start Your Tax Journey</h2>
+          <p>Whether you need an accountant referral, have a membership question, or want to list your practice on our platform — we're here to help.</p>
           <div class="contact-details">
             <div class="contact-item">
               <div class="contact-icon">✉</div>
               <div>
                 <strong>Email</strong>
-                <a href="mailto:leromrey@gmail.com">leromrey@gmail.com</a>
+                <a href="mailto:hello@taxpertsconnectxia.com">hello@taxpertsconnectxia.com</a>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon">📞</div>
               <div>
-                <strong>Phone</strong>
+                <strong>US &amp; Canada</strong>
                 <a href="tel:+18005550199">+1 (800) 555-0199</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Jamaica</strong>
+                <a href="tel:+18765550199">+1 (876) 555-0199</a>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon">🕑</div>
               <div>
                 <strong>Hours</strong>
-                <span>Mon–Fri 8 AM–7 PM (ET) · Weekend by appointment</span>
+                <span>Mon–Fri 8 AM–7 PM ET · Sat 10 AM–3 PM · JM office Mon–Fri 9 AM–5 PM</span>
               </div>
             </div>
+          </div>
+          <div class="contact-flags">
+            <span>🇺🇸 Serving the US</span>
+            <span>🇨🇦 Canada</span>
+            <span>🇯🇲 &amp; Jamaica</span>
           </div>
         </div>
         <form class="contact-form" id="contactForm" novalidate>
@@ -577,59 +848,35 @@
             <input type="email" id="email" name="email" required placeholder="jane@example.com" />
           </div>
           <div class="form-group">
-            <label for="jurisdiction">Primary Jurisdiction</label>
-            <select id="jurisdiction" name="jurisdiction">
-              <option value="">Select your jurisdiction…</option>
-              <optgroup label="Americas">
-                <option>United States</option>
-                <option>Canada</option>
-                <option>Mexico</option>
-                <option>Brazil</option>
-                <option>Colombia</option>
-              </optgroup>
-              <optgroup label="Europe">
-                <option>United Kingdom</option>
-                <option>Germany</option>
-                <option>France</option>
-                <option>Netherlands</option>
-                <option>Switzerland</option>
-              </optgroup>
-              <optgroup label="Asia-Pacific">
-                <option>Singapore</option>
-                <option>Australia</option>
-                <option>Hong Kong</option>
-                <option>India</option>
-                <option>New Zealand</option>
-              </optgroup>
-              <optgroup label="Africa &amp; Middle East">
-                <option>Nigeria</option>
-                <option>South Africa</option>
-                <option>UAE</option>
-                <option>Kenya</option>
-                <option>Ghana</option>
-              </optgroup>
+            <label for="country">Your Country</label>
+            <select id="country" name="country">
+              <option value="">Select your country…</option>
+              <option>🇺🇸 United States</option>
+              <option>🇨🇦 Canada</option>
+              <option>🇯🇲 Jamaica</option>
+              <option>🇬🇧 United Kingdom</option>
+              <option>Other</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="service">Service Needed</label>
-            <select id="service" name="service">
-              <option value="">Select a service…</option>
-              <option>Bookkeeping &amp; Accounting</option>
-              <option>Tax Filing &amp; Planning</option>
-              <option>Audit &amp; Assurance</option>
-              <option>Financial Advisory</option>
-              <option>Payroll Services</option>
-              <option>Compliance &amp; Regulatory</option>
-              <option>Multiple Services</option>
+            <label for="enquiry">Enquiry Type</label>
+            <select id="enquiry" name="enquiry">
+              <option value="">Select enquiry type…</option>
+              <option>Find an Accountant</option>
+              <option>Membership / Pricing</option>
+              <option>List My Practice</option>
+              <option>International Tax Question</option>
+              <option>Community / Partnership</option>
+              <option>Technical Support</option>
             </select>
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Tell us about your situation…"></textarea>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us how we can help…"></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-full">Send Message</button>
           <div class="form-success" id="formSuccess">
-            ✓ Thank you! We'll be in touch within one business day.
+            ✓ Thank you! A member of our team will be in touch within one business day.
           </div>
         </form>
       </div>
@@ -641,48 +888,56 @@
     <div class="container footer-inner">
       <div class="footer-brand">
         <a href="#" class="logo">
-          <span class="logo-jem">Jem</span><span class="logo-roy">Roy</span>
+          <span class="logo-tax">TaxPerts</span><span class="logo-connect">Connect</span><span class="logo-xia">XIA</span>
         </a>
-        <p>Professional accounting and tax filing services across 20+ jurisdictions.</p>
+        <p class="footer-vision">"International Taxation — Local and Diaspora Empowerment for You or Your Business."</p>
+        <div class="footer-countries">
+          <span>🇺🇸 USA</span>
+          <span>🇨🇦 Canada</span>
+          <span>🇯🇲 Jamaica</span>
+        </div>
         <div class="footer-socials">
           <a href="#" aria-label="LinkedIn">in</a>
-          <a href="#" aria-label="Twitter">X</a>
+          <a href="#" aria-label="Twitter/X">𝕏</a>
           <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">▶</a>
         </div>
       </div>
       <div class="footer-links">
         <div class="footer-col">
-          <h5>Services</h5>
-          <a href="#services">Bookkeeping</a>
-          <a href="#services">Tax Filing</a>
-          <a href="#services">Audit &amp; Assurance</a>
-          <a href="#services">Financial Advisory</a>
-          <a href="#services">Payroll</a>
-          <a href="#services">Compliance</a>
+          <h5>Platform</h5>
+          <a href="#find-accountant">Find an Accountant</a>
+          <a href="#community">Community Forums</a>
+          <a href="#resources">Tax Resources</a>
+          <a href="#pricing">Membership Plans</a>
+          <a href="#pricing">List Your Practice</a>
         </div>
         <div class="footer-col">
-          <h5>Jurisdictions</h5>
-          <a href="#jurisdictions">Americas</a>
-          <a href="#jurisdictions">Europe</a>
-          <a href="#jurisdictions">Asia-Pacific</a>
-          <a href="#jurisdictions">Africa &amp; Middle East</a>
+          <h5>Countries</h5>
+          <a href="#find-accountant">US Accountants 🇺🇸</a>
+          <a href="#find-accountant">Canadian Accountants 🇨🇦</a>
+          <a href="#find-accountant">Jamaican Accountants 🇯🇲</a>
+          <a href="#resources">Cross-Border Guides</a>
         </div>
         <div class="footer-col">
           <h5>Company</h5>
-          <a href="#why-us">Why JemRoy</a>
-          <a href="#team">Our Team</a>
-          <a href="#testimonials">Client Stories</a>
-          <a href="#contact">Contact</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#testimonials">Community Stories</a>
+          <a href="#contact">Contact Us</a>
+          <a href="#">About TaxPertsConnectXIA</a>
+          <a href="#">Press &amp; Media</a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <span>© 2025 JemRoy Accounting &amp; Tax Services. All rights reserved.</span>
+        <span>© 2025 TaxPertsConnectXIA. All rights reserved. Not a registered tax practice — we connect you with verified professionals.</span>
         <div class="footer-legal">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
           <a href="#">Cookie Policy</a>
+          <a href="#">Disclaimer</a>
         </div>
       </div>
     </div>
